@@ -14,15 +14,10 @@ class MainTabBarController : UITabBarController {
         
         // 各タブのViewControllerを取得する
         let names = ["Sub1", "Sub2"]
+       
+        // Swiftらしくワンライナーで書いてみた
+         setViewControllers(names.flatMap { UIStoryboard(name: $0, bundle: nil).instantiateInitialViewController() }, animated: false)
         
-        // 手続き型の言語っぽく書いてみた
-        var viewControllers = [UIViewController]()
-        for name in names {
-            let storyboard = UIStoryboard(name: name, bundle: nil)
-            if let viewController = storyboard.instantiateInitialViewController() {
-                viewControllers.append(viewController)
-            }
-        }
-        setViewControllers(viewControllers, animated: false)
+
     }
 }
