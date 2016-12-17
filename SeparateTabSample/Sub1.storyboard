@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="yIa-Vc-vbH">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--画面１-->
+        <scene sceneID="yTu-Kc-Wrx">
+            <objects>
+                <viewController id="yIa-Vc-vbH" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LE9-E3-s2G"/>
+                        <viewControllerLayoutGuide type="bottom" id="Lm2-UI-EL4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9Jh-v7-wzU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="画面１" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tw4-WN-mGy">
+                                <rect key="frame" x="161.5" y="323" width="52" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Tw4-WN-mGy" firstAttribute="centerY" secondItem="9Jh-v7-wzU" secondAttribute="centerY" id="FMn-ig-AEu"/>
+                            <constraint firstItem="Tw4-WN-mGy" firstAttribute="centerX" secondItem="9Jh-v7-wzU" secondAttribute="centerX" id="Hw3-uj-oEE"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="画面１" id="6NK-tH-a0G"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TDO-Rw-cjm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1068" y="-25"/>
+        </scene>
+    </scenes>
+</document>
