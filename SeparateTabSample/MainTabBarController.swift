@@ -17,7 +17,5 @@ class MainTabBarController : UITabBarController {
        
         // Swiftらしくワンライナーで書いてみた
          setViewControllers(names.flatMap { UIStoryboard(name: $0, bundle: nil).instantiateInitialViewController() }, animated: false)
-        
-
     }
 }
