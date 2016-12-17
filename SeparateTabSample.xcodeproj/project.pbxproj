@@ -15,6 +15,7 @@
 		BA0C87C11E02FC71001C2B54 /* SeparateTabSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0C87C01E02FC71001C2B54 /* SeparateTabSampleUITests.swift */; };
 		BA7A8A4A1E04D03D0097B8E6 /* Sub1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA7A8A491E04D03D0097B8E6 /* Sub1.storyboard */; };
 		BA7A8A4C1E04D0460097B8E6 /* Sub2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA7A8A4B1E04D0460097B8E6 /* Sub2.storyboard */; };
+		BAF020971E05272900CC20E7 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF020961E05272900CC20E7 /* MainTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BA0C87C21E02FC71001C2B54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA7A8A491E04D03D0097B8E6 /* Sub1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Sub1.storyboard; sourceTree = "<group>"; };
 		BA7A8A4B1E04D0460097B8E6 /* Sub2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Sub2.storyboard; sourceTree = "<group>"; };
+		BAF020961E05272900CC20E7 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				BA0C87A01E02FC70001C2B54 /* AppDelegate.swift */,
 				BA0C87A41E02FC70001C2B54 /* Main.storyboard */,
+				BAF020961E05272900CC20E7 /* MainTabBarController.swift */,
 				BA7A8A491E04D03D0097B8E6 /* Sub1.storyboard */,
 				BA7A8A4B1E04D0460097B8E6 /* Sub2.storyboard */,
 				BA0C87A71E02FC71001C2B54 /* Assets.xcassets */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAF020971E05272900CC20E7 /* MainTabBarController.swift in Sources */,
 				BA0C87A11E02FC70001C2B54 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,7 +364,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -404,7 +408,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
